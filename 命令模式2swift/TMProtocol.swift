@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol TMProtocol {
+    func execute()
+}

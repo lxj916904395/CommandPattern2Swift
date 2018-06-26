@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class TMLeftCommand: TMCommand {
+    
+    
+    override func execute() {
+        self.tm.toLeft();
+    }
+}

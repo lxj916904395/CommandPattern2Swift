@@ -10,3 +10,18 @@ import Foundation
 
 print("Hello, World!")
 
+let tm = TMMachie()
+
+let leftCommand = TMLeftCommand(tm)
+
+let rightCommand = TMRightCommand(tm)
+
+let manager = TMMachineManager(left: leftCommand,right: rightCommand)
+
+manager.toLeft()
+manager.toRight()
+manager.toRight()
+manager.toRight()
+
+manager.recallAll()
+

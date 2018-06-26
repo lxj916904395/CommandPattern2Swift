@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+class TMMachie: NSObject {
+    
+    func toLeft() {
+        print("向左")
+    }
+    
+    func toRight(){
+        print("向右")
+    }
+    
+}

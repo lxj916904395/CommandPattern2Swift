@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+class TMCommand: TMProtocol{
+    func execute() {
+        
+    }
+    
+    var tm:TMMachie
+    
+    init(_ tm:TMMachie) {
+        self.tm = tm;
+    }
+    
+    
+}

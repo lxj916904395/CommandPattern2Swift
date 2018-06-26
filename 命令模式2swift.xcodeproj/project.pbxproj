@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4D526E7D20E219C00037620B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E7C20E219C00037620B /* main.swift */; };
+		4D526E8520E21A130037620B /* TMProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E8420E21A130037620B /* TMProtocol.swift */; };
+		4D526E8720E21A4A0037620B /* TMMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E8620E21A4A0037620B /* TMMachine.swift */; };
+		4D526E8920E21AD30037620B /* TMCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E8820E21AD30037620B /* TMCommand.swift */; };
+		4D526E8B20E21B880037620B /* TMLeftCommad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E8A20E21B880037620B /* TMLeftCommad.swift */; };
+		4D526E8D20E21BC90037620B /* TMRightCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E8C20E21BC90037620B /* TMRightCommand.swift */; };
+		4D526E8F20E21BF80037620B /* TMMachineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D526E8E20E21BF80037620B /* TMMachineManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		4D526E7920E219C00037620B /* 命令模式2swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "命令模式2swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D526E7C20E219C00037620B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4D526E8420E21A130037620B /* TMProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMProtocol.swift; sourceTree = "<group>"; };
+		4D526E8620E21A4A0037620B /* TMMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMMachine.swift; sourceTree = "<group>"; };
+		4D526E8820E21AD30037620B /* TMCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMCommand.swift; sourceTree = "<group>"; };
+		4D526E8A20E21B880037620B /* TMLeftCommad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMLeftCommad.swift; sourceTree = "<group>"; };
+		4D526E8C20E21BC90037620B /* TMRightCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMRightCommand.swift; sourceTree = "<group>"; };
+		4D526E8E20E21BF80037620B /* TMMachineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMMachineManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				4D526E7C20E219C00037620B /* main.swift */,
+				4D526E8420E21A130037620B /* TMProtocol.swift */,
+				4D526E8620E21A4A0037620B /* TMMachine.swift */,
+				4D526E8820E21AD30037620B /* TMCommand.swift */,
+				4D526E8A20E21B880037620B /* TMLeftCommad.swift */,
+				4D526E8C20E21BC90037620B /* TMRightCommand.swift */,
+				4D526E8E20E21BF80037620B /* TMMachineManager.swift */,
 			);
 			path = "命令模式2swift";
 			sourceTree = "<group>";
@@ -119,6 +137,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D526E8F20E21BF80037620B /* TMMachineManager.swift in Sources */,
+				4D526E8520E21A130037620B /* TMProtocol.swift in Sources */,
+				4D526E8D20E21BC90037620B /* TMRightCommand.swift in Sources */,
+				4D526E8B20E21B880037620B /* TMLeftCommad.swift in Sources */,
+				4D526E8720E21A4A0037620B /* TMMachine.swift in Sources */,
+				4D526E8920E21AD30037620B /* TMCommand.swift in Sources */,
 				4D526E7D20E219C00037620B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,3 +7,9 @@
 //
 
 import Foundation
+class TMRightCommand: TMCommand {
+    
+    override func execute() {
+        self.tm.toRight();
+    }
+}
