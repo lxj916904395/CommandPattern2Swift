@@ -10,11 +10,23 @@ import Foundation
 
 class TMMachie: NSObject {
     
-    func toLeft() {
+    func toLeft(s:String) {
         print("向左")
     }
     
-    func toRight(){
+    func toRight(s:String){
+        print("向右")
+    }
+    
+}
+
+class TMMachie2: NSObject {
+    
+    func toLeft(s:String) {
+        print("向左")
+    }
+    
+    func toRight(s:String){
         print("向右")
     }
     

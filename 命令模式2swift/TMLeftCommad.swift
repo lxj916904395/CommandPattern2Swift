@@ -12,6 +12,6 @@ class TMLeftCommand: TMCommand {
     
     
     override func execute() {
-        self.tm.toLeft();
+        self.tm.toLeft(s:"");
     }
 }

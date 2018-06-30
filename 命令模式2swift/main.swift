@@ -12,16 +12,31 @@ print("Hello, World!")
 
 let tm = TMMachie()
 
-let leftCommand = TMLeftCommand(tm)
+//let leftCommand = TMLeftCommand(tm)
+//
+//let rightCommand = TMRightCommand(tm)
+//
+//let manager = TMMachineManager(left: leftCommand,right: rightCommand)
+//
+//manager.toLeft()
+//manager.toRight()
+//manager.toRight()
+//manager.toRight()
+//
+//manager.recallAll()
 
-let rightCommand = TMRightCommand(tm)
+//let invoker = DynamicInvoker(receiver: tm)
+//invoker.toRight()
+//invoker.toLeft()
+//invoker.undo()
 
-let manager = TMMachineManager(left: leftCommand,right: rightCommand)
 
-manager.toLeft()
-manager.toRight()
-manager.toRight()
-manager.toRight()
+//let invoker = WrapperCommandInvoker(reveiver: tm)
+//invoker.toLeft()
+//invoker.toRight()
+//invoker.undoAll()
 
-manager.recallAll()
-
+let invoker = GenericsCommandInvoker(receiver: tm)
+invoker.toLeft()
+invoker.toRight()
+invoker.undoAll()

@@ -10,6 +10,6 @@ import Foundation
 class TMRightCommand: TMCommand {
     
     override func execute() {
-        self.tm.toRight();
+        self.tm.toRight(s:"");
     }
 }
